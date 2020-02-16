@@ -1,0 +1,56 @@
+
+
+.hangmanInputContainer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60%;
+}
+
+.hangmanInput {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.hangmanInput #wordToGuessContainer {
+    height: 30px;
+    margin: 5px 0px;
+}
+
+.hangmanInput .guessChr {
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 5px solid black;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hangmanInput .inputContainer {
+    margin-top: 30px;
+}
+.hangmanInput #selectText {
+    padding: 10px 10px 0px 0px;
+}
+
+.hangmanInput #selectChr {
+    width: 50px;
+}
+
+.hangmanInput .wrongChr {
+    padding: 5px 5px 5px 0px;
+}
+
+.hangmanInput .resultText {
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hangmanInput .hangmanButton {
+    margin-left: 15px;
+    padding: 5px;
+    color: snow;
+    background-color: darkblue;
+}

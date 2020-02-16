@@ -121,9 +121,8 @@ export const Hangman = ({ incorrectGuessCount = 0 }) => {
 
   // Resizes the canvas based on its parent's width
   const resizeCanvas = useCallback(() => {
-    const style = getComputedStyle(containerRef.current);
-    const containerSize = parseInt(style.width);
-    setSize(containerSize);
+    const size = Math.min(containerRef.current.offsetHeight - 32, containerRef.current.offsetWidth / 3);
+    setSize(size);
   }, []);
 
   // Debounced version to use as a resize event listener

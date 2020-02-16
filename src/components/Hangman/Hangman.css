@@ -1,4 +1,5 @@
 .Hangman {
+  height: 50vh;
   border: 1px solid #ccc;
   padding: 16px;
   margin: 0;
